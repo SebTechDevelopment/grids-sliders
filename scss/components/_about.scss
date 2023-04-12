@@ -1,0 +1,18 @@
+.about {
+    text-align: center;
+    background-color: $color-white;
+    padding: 2rem;
+    margin-top: -9vh;
+
+    &__box {
+        margin-top: 7vh;
+    }
+
+    &__header {
+        font-size: $header-text-size;
+    }
+
+    & p {
+        margin-top: 1em;
+    }
+}

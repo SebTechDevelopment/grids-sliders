@@ -1,0 +1,39 @@
+.new-product-spotlight {
+    position: relative;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.new-product-container {
+    display: inline-block;
+    padding: 20px;
+}
+
+.new-product {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: calc(25% - 15px);
+    text-align: center;
+}
+
+.new-product:last-child {
+    margin-right: 0;
+}
+
+.new-product img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .new-product {
+        width: calc(100% - 40rem);
+        margin-right: 10px;
+    }
+
+    .new-product:last-child {
+        margin-bottom: 20px;
+    }
+}
+
